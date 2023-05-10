@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+\* ------------------------------------------------------------ */
+@font-face {
+	font-family: 'Big Caslon';
+	src: url('../fonts/BigCaslon-Medium.eot');
+	src: url('../fonts/BigCaslon-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BigCaslon-Medium.woff2') format('woff2'),
+		url('../fonts/BigCaslon-Medium.woff') format('woff'),
+		url('../fonts/BigCaslon-Medium.ttf') format('truetype'),
+		url('../fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Museo Sans Rounded';
+	src: url('../fonts/MuseoSansRounded-300.eot');
+	src: url('../fonts/MuseoSansRounded-300.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansRounded-300.woff2') format('woff2'),
+		url('../fonts/MuseoSansRounded-300.woff') format('woff'),
+		url('../fonts/MuseoSansRounded-300.ttf') format('truetype'),
+		url('../fonts/MuseoSansRounded-300.svg#MuseoSansRounded-300') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Museo Sans Rounded';
+	src: url('../fonts/MuseoSansRounded-500.eot');
+	src: url('../fonts/MuseoSansRounded-500.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansRounded-500.woff2') format('woff2'),
+		url('../fonts/MuseoSansRounded-500.woff') format('woff'),
+		url('../fonts/MuseoSansRounded-500.ttf') format('truetype'),
+		url('../fonts/MuseoSansRounded-500.svg#MuseoSansRounded-500') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Museo Sans Rounded';
+	src: url('../fonts/MuseoSansRounded-700.eot');
+	src: url('../fonts/MuseoSansRounded-700.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansRounded-700.woff2') format('woff2'),
+		url('../fonts/MuseoSansRounded-700.woff') format('woff'),
+		url('../fonts/MuseoSansRounded-700.ttf') format('truetype'),
+		url('../fonts/MuseoSansRounded-700.svg#MuseoSansRounded-700') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}

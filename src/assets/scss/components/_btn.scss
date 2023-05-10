@@ -1,0 +1,55 @@
+/* ------------------------------------------------------------ *\
+	btn
+\* ------------------------------------------------------------ */
+.btn {
+	margin-bottom: 12px;
+	padding: 15px 22px 14px;
+	border: 1px solid #ffdc2b;
+	border-radius: 0px 0px;
+	min-width: 0;
+	min-height: 0;
+	background-color: #ffdc2b;
+	box-shadow: 0 0 0px 0px transparent;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+	color: #171717;
+	font-weight: 700;
+	line-height: 1.86;
+	font-size: 14px;
+	letter-spacing: 0.095em;
+	cursor: pointer;
+	text-decoration: none;
+	outline: none;
+	appearance: none;
+	transition: transform .5s ease-out, border-color .5s ease-out, border-radius .5s ease-out, max-width .5s ease-out, max-height .5s ease-out, background-color .5s ease-out, box-shadow .5s ease-out, color .5s ease-out, opacity .5s ease-out, visibility .5s ease-out;
+
+	@include breakpoint-down(large-desktop) {
+		margin-bottom: 0.83vw;
+		padding: 1.04vw 1.53vw 0.97vw;
+		font-size: 0.97vw;
+	}
+
+	@include breakpoint-down(mobile) {
+		margin-bottom: 37px;
+		font-size: 15px;
+		padding: 15px 22px 14px;
+	}
+
+	@include breakpoint-down(mobile-small) {
+		margin-bottom: 9.87vw;
+		font-size: 4vw;
+		padding: 4vw 5.87vw 3.73vw;
+	}
+
+	&:hover {
+		background-color: #000;
+		color: #ffdc2b;
+	}
+}
+
+/*  btn--full  */
+.btn--full {
+	width: 100%;
+}
