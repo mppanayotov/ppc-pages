@@ -25,6 +25,7 @@ drone.json
 
 # Lock files
 package-lock.json
+yarn.lock
 
 # Sprite Icons
 src/assets/images/sprite*.*

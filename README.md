@@ -1,10 +1,13 @@
-# Task Runner
-Front-end tool for task automation.
+# Live Demo
+
+https://mppanayotov-ppc-pages.surge.sh
 
 ## Tips
+
 Use bash terminal (default terminal on OSX and Linux, [GitBash](http://git-scm.com/downloads) on Windows).
 
 ## Dependencies
+
 1. Latest version of [NodeJS](http://nodejs.org/) (min v6.0.0)
 2. Latest version of any of the following package managers
 
@@ -12,6 +15,7 @@ Use bash terminal (default terminal on OSX and Linux, [GitBash](http://git-scm.c
 - [Yarn](https://yarnpkg.com/) (min v0.20.4)
 
 ## Install
+
 In the root directory of the project run:
 
 ```
@@ -55,6 +59,7 @@ If you are using linux environment, you need to run the following (only once):
 1. `sudo apt-get install libtool automake autoconf nasm`
 
 ## Development
+
 To start the project in development mode, run:
 
 ```
@@ -80,6 +85,7 @@ yarn start -- --dev-url "http://your-server.url/path/to/project"
 ```
 
 ## Build
+
 To build the project, run:
 
 ```
@@ -87,6 +93,7 @@ npm run build
 ```
 
 ## Production
+
 To build the project for production environment (e.g. minimize bundles css and js files and optimize images), run:
 
 ```
